@@ -12,7 +12,6 @@ However, enable for can comunication, consider following the connection guide be
 |                Can Bus FD                    |               Can Bus FD            |
 |----------------------------------------------|-------------------------------------|
 | (on the same pi that connected to neo-pixel) |(the one that doesn't have neo-pixel)| 
-|----------------------------------------------|-------------------------------------|
 |                  can0_H                      |                can_1_H              |
 |                  can0_L                      |                can_1_L              |
 
