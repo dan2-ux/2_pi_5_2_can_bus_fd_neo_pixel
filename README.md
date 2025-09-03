@@ -21,7 +21,7 @@ There is 1 pi 5 with connected to both can hat and neo-pixel. That exact pi will
 
 ## Configure both pi 5 to enable can comunication
 Doing all the steps below on both pi 5
-** Step 1: ** 
+### Step 1: 
 Open terminal and run:
 
 <pre> sudo raspi-config </pre>
@@ -29,7 +29,7 @@ Open terminal and run:
 Choose **interface option** -> **SPI** -> **enable**.
 When done, reboot the computer
 
-** Step 2: **
+### Step 2: 
 Change config.txt
 <pre> sudo nano /boot/config.txt </pre>
 
@@ -45,14 +45,14 @@ dtoverlay=mcp251xfd,spi0-1,oscillator=40000000,interrupt=24
 
 Reboot the computer, when done to save the changes
 
-** Step 3: **
+### Step 3:
 Execute the code below in both pi 5
 <pre>
   sudo ip link set can0 up type can bitrate 1000000   dbitrate 8000000 restart-ms 1000 berr-reporting on fd on
   sudo ifconfig can0 txqueuelen 65536
 </pre>
 
-** Step 7: **
+### Step 4: 
 Testing if you receive can signals
 Execute the command below on one pi:
 <pre>
