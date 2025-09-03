@@ -12,8 +12,8 @@ However, enable for can comunication, consider following the connection guide be
 |                Can Bus FD                    |               Can Bus FD            |
 |----------------------------------------------|-------------------------------------|
 | (on the same pi that connected to neo-pixel) |(the one that doesn't have neo-pixel)| 
-|                  can0_H                      |                can_1_H              |
-|                  can0_L                      |                can_1_L              |
+|                  can0_H                      |                can1_H               |
+|                  can0_L                      |                can1_L               |
 
 ## Workflow
 There is 1 pi 5 with connected to both can hat and neo-pixel. That exact pi will be the one that will contineously wait for can signals (which is sent by another pi 5 with connection to can hat) to be seen which depend of the type signal, neo-pixel's state will changed based on it.
