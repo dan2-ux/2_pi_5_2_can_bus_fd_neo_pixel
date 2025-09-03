@@ -52,7 +52,7 @@ Execute the code below in both pi 5
   sudo ifconfig can0 txqueuelen 65536
 </pre>
 
-**Warning**: if your sending can pi 5 is running unfamiliar linux distro then that pi 5 only need to execute the code above to define bitrate for can0.
+**Warning**: if your sending can pi 5 is running unfamiliar linux distro then that pi 5 then you only need to execute the code above to define bitrate for can0, no need to do step 1 and step 2 on that pi 5.
 
 ### Step 4: 
 Testing if you receive can signals
