@@ -64,7 +64,7 @@ Then, open the terminal of another pi then execute the command below:
   cangen can0
 </pre>
 
-** Expected result **: the pi that executed the "candump" command will contineously receive can signal from the remaining pi
+**Expected result**: the pi that executed the "candump" command will contineously receive can signal from the remaining pi
 
 ## Running the code:
 But before running the code you need to install required libraries.
