@@ -42,7 +42,7 @@ dtoverlay=mcp251xfd,spi0-0,oscillator=40000000,interrupt=23
 dtoverlay=mcp251xfd,spi0-1,oscillator=40000000,interrupt=24
 </pre>
 
-Reboot the computer, when done to save the changes
+Reboot the computer, when done, to save the changes
 
 ### Step 3:
 Execute the code below in both pi 5
