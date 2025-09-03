@@ -71,7 +71,7 @@ But before running the code you need to install required libraries.
 <pre>
   pip install python-can adafruit-circuitpython-neopixel adafruit-blinka
 </pre>
-Then on the raspberry that connected to neo-pixel execute the code name * neo_pixel.py *
+Then on the raspberry that connected to neo-pixel execute the code name *neo_pixel.py*
 
 Move to the other pi terminal run the following command:
 <pre>
@@ -79,8 +79,8 @@ Move to the other pi terminal run the following command:
   # The first 3 numbers actually have to power to dectect neo-pixel behavior. 
   # 01 is for On, 00 is for Off.
   # ff.ff.ff will be the element that define what colour the neo-pixel will display
-  # The final on ff is for the intensity from 0 - 255
+  # The final on ff is for the intensity which is from 0 - 255
 </pre>
 
-There is another file on the repository named "pi_send_can_automatically.py"
+There is another file on the repository named *pi_send_can_automatically.py*
 This file will help pi 5 to automatically send can signal, which will turn on and off neo-pixel automacially.
