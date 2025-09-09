@@ -15,6 +15,13 @@ However, enable for can comunication, consider following the connection guide be
 |                  can0_H                      |                can1_H               |
 |                  can0_L                      |                can1_L               |
 
+For neo-pixel:
+| Raspberry Pi 5   | NeoPixels        |
+| ---------------- | ---------------- |
+| 5V               | 5V               |
+| GND              | GND              |
+| GPIO 18          | Din              |
+
 ## Workflow
 There is 1 pi 5 with connected to both can hat and neo-pixel. That exact pi will be the one that will contineously wait for can signals (which is sent by another pi 5 with connection to can hat) to be seen which depend of the type signal, neo-pixel's state will changed based on it.
 
