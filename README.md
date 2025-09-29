@@ -1,4 +1,4 @@
-# This repository will guide you on how to control neo-pixel through can bus fd using 2 pi 5
+# This repository will guide you on how to control neo-pixel through can bus fd using 2 Raspberry Pi 5
 
 ## Every tools necesary for this project.
 + 2 pi 5
